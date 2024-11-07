@@ -5,13 +5,13 @@ import { MdRocketLaunch } from "react-icons/md";
 function Projetos() {
     return (
         <div className="text-center mt-[30px]">
-            <h1 className="text-3xl font-bold">Projetos</h1>
+            <h1 className="text-2xl md:text-3xl font-bold">Projetos</h1>
             <p>Veja abaixo alguns dos meus principais projetos:</p>
             <div className="p-4 flex flex-col items-center space-y-2 gap-4">
                 {/* Projeto 1 */}
-                <div className="hover:scale-[1.03] duration-300 w-[480px] border-2 border-[#2540c5] bg-gradient-to-r from-[#231d1d] to-[#9d9d9d] rounded-[15px]">
+                <div className="hover:scale-[1.03] duration-300 md:w-[480px] border-2 border-[#2540c5] bg-gradient-to-r from-[#231d1d] to-[#9d9d9d] rounded-[15px]">
                     <div>
-                        <img src='/wallpaperGallery.png' className='border-b-2 border-[white] w-full h-[300px] rounded-tl-[15px] rounded-tr-[15px]'></img>
+                        <img src='/wallpaperGallery.png' className='border-b-2 border-[white] w-full h-[200px] md:h-[300px] rounded-tl-[15px] rounded-tr-[15px]'></img>
                     </div>
                     <div className="p-4">
                         <h1 className="text-2xl font-bold">Wallpaper Gallery</h1>
@@ -25,9 +25,9 @@ function Projetos() {
                 </div>
 
                 {/* Projeto 2 */}
-                <div className="hover:scale-[1.03] duration-300 w-[480px] border-2 border-[#2540c5] bg-gradient-to-r from-[#231d1d] to-[#9d9d9d] rounded-[15px]">
+                <div className="hover:scale-[1.03] duration-300 md:w-[480px] border-2 border-[#2540c5] bg-gradient-to-r from-[#231d1d] to-[#9d9d9d] rounded-[15px]">
                     <div>
-                        <img src='/organoGame.png' className='border-b-2 border-[white] w-full h-[300px] rounded-tl-[15px] rounded-tr-[15px]'></img>
+                        <img src='/organoGame.png' className='border-b-2 border-[white] w-full h-[200px] md:h-[300px] rounded-tl-[15px] rounded-tr-[15px]'></img>
                     </div>
                     <div className="p-4">
                         <h1 className="text-2xl font-bold">Organo Games</h1>

@@ -133,7 +133,7 @@ function Home({ togglePopup, showPopup }) {
 
       {/* Popup de Tecnologias*/}
       <div className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50 transition-opacity duration-500 ease-in-out ${showPopup ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
-        <div className=" md:w-[300px] p-4 bg-gradient-to-b from-blue-900 via-blue-700 to-purple-900 rounded-lg  text-white relative">
+        <div className=" md:w-[300px] p-6 md:p-4 bg-gradient-to-b from-blue-900 via-blue-700 to-purple-900 rounded-lg  text-white relative">
           <div className='flex flex-col justify-center items-center'>
             <h3 className="text-lg font-bold mb-4">Tecnologias</h3>
             <ul className="space-y-2">
