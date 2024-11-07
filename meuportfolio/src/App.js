@@ -25,8 +25,8 @@ function App() {
       <div className="bg-gradient-to-r from-[#1C1C1D] via-[#2A2A2B] via-70% to-[#1E1E1F] text-white font-mono min-h-screen relative">
 
         {/* Menu */}
-        <nav className="md:flex md:justify-end text-white">
-          <div className=" p-4 text-nowrap h-[45px] mt-2  md:mt-0 md:flex space-x-4 md:w-[310px] md:h-[35px] md:p-[8px] md:pr-2.5 md:justify-end md:gap-2 rounded-tl-[20px] rounded-bl-[20px] border-b-2 border-blue-500">
+        <nav className="flex md:justify-end text-white">
+          <div className=" p-[10px] text-nowrap h-[40px] w-full flex justify-center md:mt-0 md:flex space-x-4 md:w-[310px] md:h-[35px] md:p-[8px] md:pr-2.5 md:justify-end md:gap-2 rounded-tl-[20px] rounded-bl-[20px] border-b-2 border-blue-500">
             <Link to="/" className="hover:text-blue-400">Sobre mim</Link>
             <Link to="/projetos" className="hover:text-blue-400">Projetos</Link>
             <button onClick={downloadCV} className="hover:text-blue-400">Currículo</button>
