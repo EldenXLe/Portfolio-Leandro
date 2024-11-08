@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
-import { FaReact, FaCss3Alt, FaJs, FaHtml5, FaGithub } from 'react-icons/fa';
+import { FaReact, FaCss3Alt, FaJs, FaHtml5, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import './App.css';
 import Projetos from './projetos'; // Importando o componente Projetos
@@ -46,9 +46,21 @@ function Home({ togglePopup, showPopup }) {
   return (
     <>
       {/* Minha foto */}
-      <div className='hover:scale-105 duration-300 flex justify-center items-center mt-7 md:mt-0  md:absolute md:top-[100px] md:right-[80px] rounded-full md:shadow-[0_0_13px_5px_rgba(24,150,203,0.8)]'>
-        <img src="https://github.com/EldenXLe.png" alt="Minha foto" className="w-[200px] h-[200px]   md:w-[300px] md:h-[300px] rounded-full object-cover border-[3px] border-blue-500 " />
+      <div className="flex flex-col items-center mt-7 md:mt-0 md:absolute md:top-[100px] md:right-[80px]">
+        {/* Foto */}
+        <div className='hover:scale-105 duration-300 rounded-full md:shadow-[0_0_13px_5px_rgba(24,150,203,0.8)]'>
+          <img src="https://github.com/EldenXLe.png" alt="Minha foto" className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full object-cover border-[3px] border-blue-500" />
+        </div>
+
+        {/* Redes sociais */}
+        <div className="flex justify-center space-x-4 mt-5">
+          <Link to="https://www.linkedin.com/in/leandro-rodrigues-3852781b8" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-2xl hover:text-blue-400" /> </Link>
+          <Link to="https://github.com/EldenXLe" target="_blank" rel="noopener noreferrer"><FaGithub className="text-2xl hover:text-blue-400" /></Link>
+          <Link to="https://www.instagram.com/xle115x/" target="_blank" rel="noopener noreferrer"><FaInstagram className="text-2xl hover:text-blue-400" /></Link>
+          <Link to="https://wa.me/5511942394442" target="_blank" rel="noopener noreferrer"><FaWhatsapp className="text-2xl hover:text-blue-400" /> </Link>
+        </div>
       </div>
+
 
       {/* Apresentação */}
       <div className="mt-5 p-4 md:p-0 md:flex md:justify-start md:mt-[100px] md:ml-[80px]">
@@ -56,7 +68,7 @@ function Home({ togglePopup, showPopup }) {
           <h1 className="md:text-left md:text-[18px] md:w-[450px]">
             <Typewriter
               words={[
-                "Olá! Eu sou Leandro Rodrigues. Sou desenvolvedor front-end com prazer em criar interfaces interativas e funcionais. Adoro transformar ideias em experiências digitais intuitivas e responsivas.",
+                "Olá, Eu sou Leandro Rodrigues! Sou desenvolvedor front-end com prazer em criar interfaces interativas e funcionais. Adoro transformar ideias em experiências digitais intuitivas e responsivas.",
               ]}
               typeSpeed={20}
               cursor
