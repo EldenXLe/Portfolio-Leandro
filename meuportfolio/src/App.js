@@ -93,7 +93,7 @@ function Home({ togglePopup, showPopup }) {
             <h2>Oficina Inteligente</h2>
             <p>10/2023 - 10/2024</p>
             <p className='mt-3'>Suporte ao cliente que utilizava um sistema ERP para gerenciamento de vendas,
-              ordem de serviço, contas a pagar e a receber, emissão de notas, controle de DRE e etc. Fazia a tratativa de erroS e prestava auxilio em duvidas.</p>
+              ordem de serviço, contas a pagar e a receber, emissão de notas, controle de DRE e etc. Fazia a tratativa de erros e prestava auxílio em dúvidas.</p>
           </div>
 
           <div className='md:hover:scale-105 md:duration-300 p-4 border-2 border-[#2540c5] md:w-1/3 bg-gradient-to-r from-[#231d1d94] to-[#8a8a8abd]'>
@@ -109,7 +109,7 @@ function Home({ togglePopup, showPopup }) {
             <h2>Concentrix</h2>
             <p>05/2022 - 11/2022</p>
             <p className='mt-3'>Atendia clientes com duvidas e problemas nos celulares, computadores, smartwatchs e outros aparelhos
-              da empresa que prestavamos suporte. Executavamos testes de desempenho e investigavamos problemas para melhores tratarivas.</p>
+              da empresa que prestavamos suporte. Executávamos testes de desempenho e investigavamos problemas para melhores tratativas.</p>
           </div>
         </div>
       </div>
