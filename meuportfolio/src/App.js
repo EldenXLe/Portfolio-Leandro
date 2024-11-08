@@ -46,7 +46,7 @@ function Home({ togglePopup, showPopup }) {
   return (
     <>
       {/* Minha foto */}
-      <div className="flex flex-col items-center mt-7 md:mt-0 md:absolute md:top-[100px] md:right-[80px]">
+      <div className="flex flex-col items-center mt-7 md:mt-0 md:absolute md:top-[75px] md:right-[80px]">
         {/* Foto */}
         <div className='hover:scale-105 duration-300 rounded-full md:shadow-[0_0_13px_5px_rgba(24,150,203,0.8)]'>
           <img src="https://github.com/EldenXLe.png" alt="Minha foto" className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full object-cover border-[3px] border-blue-500" />
@@ -63,7 +63,7 @@ function Home({ togglePopup, showPopup }) {
 
 
       {/* Apresentação */}
-      <div className="mt-5 p-4 md:p-0 md:flex md:justify-start md:mt-[100px] md:ml-[80px]">
+      <div className="mt-5 p-4 md:p-0 md:flex md:justify-start md:mt-[80px] md:ml-[80px]">
         <div className="flex flex-col items-center md:items-start">
           <h1 className="md:text-left md:text-[18px] md:w-[450px]">
             <Typewriter
@@ -76,8 +76,8 @@ function Home({ togglePopup, showPopup }) {
               loop={1}
             />
           </h1>
-          <p className='text-[15px] mt-3'>Veja algumas de minhas habilidades:</p>
-          <button onClick={togglePopup} className="mt-3 w-[120px] h-[35px] bg-gradient-to-r from-[#2540c5] to-[#9397ac] hover:bg-gradient-to-r hover:from-[#9397ac] hover:to-[#2540c5] hover:scale-105 duration-300 rounded-[8px]">
+          <p className='text-[15px] mt-[25px]'>Veja algumas de minhas habilidades:</p>
+          <button onClick={togglePopup} className="mt-[10px] w-[120px] h-[35px] bg-gradient-to-r from-[#2540c5] to-[#9397ac] hover:bg-gradient-to-r hover:from-[#9397ac] hover:to-[#2540c5] hover:scale-105 duration-300 rounded-[8px]">
             Tecnologias
           </button>
         </div>
