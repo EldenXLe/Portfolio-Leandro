@@ -11,7 +11,7 @@ function Projetos() {
                 {/* Projeto 1 */}
                 <div className="hover:scale-[1.03] duration-300 md:w-[480px] border-2 border-[#2540c5] bg-gradient-to-r from-[#231d1d] to-[#9d9d9d] rounded-[15px]">
                     <div>
-                        <img src='/climaCon.png' className='border-b-2 border-[white] w-full h-[200px] md:h-[300px] rounded-tl-[15px] rounded-tr-[15px]'></img>
+                        <img src='/consulClima.png' className='border-b-2 border-[white] w-full h-[200px] md:h-[300px] rounded-tl-[15px] rounded-tr-[15px]'></img>
                     </div>
                     <div className="p-4">
                         <h1 className="text-2xl font-bold">Consulta de Clima</h1>
