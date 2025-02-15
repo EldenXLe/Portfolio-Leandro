@@ -7,6 +7,14 @@ function Projetos() {
             <h1 className="text-2xl md:text-3xl font-bold">Projetos</h1>
             <p>Veja abaixo alguns dos meus principais projetos:</p>
             <div className="p-4 flex flex-col items-center space-y-2 gap-4">
+                <Projeto
+                    titulo="Controle de gastos residenciais" 
+                    descricao="Uma aplicação que permite o usuário controlar seus gastos, cadastrando pessoas, registrando transações de receitas e despesas, e visualizando um resumo financeiro detalhado." 
+                    tecnologias="ReactJS, React Router, CSS, local storage" 
+                    imagem="/gastos.png" 
+                    linkProjeto="https://gastos-residenciais.vercel.app" 
+                    linkRepositorio="https://github.com/EldenXLe/Gastos-residenciais" 
+                />
                 <Projeto 
                     titulo="Consulta de Clima" 
                     descricao="Uma pagina que exibe o clima da sua região quando permitido obter a localidade e também permite pesquisar o clima de qualquer cidade do mundo!" 
